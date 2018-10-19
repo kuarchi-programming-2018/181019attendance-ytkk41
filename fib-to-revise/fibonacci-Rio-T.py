@@ -9,7 +9,7 @@ def fib(n):
     a, b = 0, 1
     for i in range(n):
         a, b = b, a + b
-    return b
+    return a
 
 print([fib(i) for i in range(10)]) 
 #n=1,2,3...,10の時のフィボナッチ数列
